@@ -76,13 +76,17 @@
     }
 
     /* Quick Notes */
-    .quick-notes {
-        flex-wrap: wrap;
+    .quick-notes ul {
+        display: block;
     }
 
     /* Recipe Card */
     .recipe-card {
         display: flex;
+    }
+
+    .recipe-video {
+        width: 100%;
     }
 
     /*  SOCIAL NETWORKS */
