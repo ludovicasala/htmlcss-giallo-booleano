@@ -1,5 +1,4 @@
 /* Generics */
-
 * {
 	margin: 0;
 	padding: 0;
@@ -23,7 +22,6 @@ body {
 }
 
 /* Buttons */
-
 .btn {
 	border: 0;
 	font-size: 14px;
@@ -41,7 +39,6 @@ body {
 }
 
 /*  HEADER  */
-
 #topbar {
 	height: 70px;
 	padding: 0 20px;
@@ -62,7 +59,6 @@ body {
 }
 
 /* MAIN */
-
 main {
 	background-color: #f6f5f3;
 	padding: 20px;
@@ -80,9 +76,7 @@ main {
 }
 
 /************* RECIPE *************/
-
 /* Recipe header */
-
 .recipe header {
 	display: flex;
 	justify-content: space-between;
@@ -147,7 +141,6 @@ main {
 }
 
 /* Recipe Information */
-
 .recipe-info {
 	padding: 30px;
 }
@@ -195,7 +188,6 @@ main {
 }
 
 /* Quick Notes */
-
 .quick-notes {
 	margin-top: 30px;
 }
@@ -238,7 +230,6 @@ main {
 }
 
 /*  SOCIAL NETWORKS */
-
 .social-networks {
 	display: flex;
 	align-items: center;
@@ -273,7 +264,6 @@ main {
 }
 
 /* PRESENTATION */
-
 .presentation {
 	margin: 30px 0;
 }
@@ -306,7 +296,6 @@ main {
 }
 
 /* FOOTER */
-
 footer {
 	padding: 20px;
 	min-height: 80px;

@@ -7,29 +7,61 @@
     }
 
     /*  HEADER  */
-
     #topbar {
         display: flex;
         justify-content: start;
     }
 
     /************* RECIPE *************/
-
     /* Recipe header */
-
     .recipe-title {
         font-size: 30px;
     }
 
     .recipe-name {
         display: flex;
-        gap: 5px;
+        gap: 10px;
     }
 
     .recipe-origin {
         display: flex;
     }
 
+    /* Quick Notes - DA RIFARE */
+    .quick-notes ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px 30px;
+        margin: 15px;
+    }
 
+    /*  SOCIAL NETWORKS */
+    .social-networks button {
+        width: 100%;
+        padding: 12px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        /* Spazio tra icona e testo */
+    }
+
+    /* ADS */
+    .ads {
+        display: inline;
+        margin: 30px auto;
+    }
+
+    .ads img {
+        max-width: 100%;
+        margin: 30px 0 0 0;
+    }
+
+    /* PRESENTATION */
+    .presentation img {
+        float: left;
+        width: 600px;
+        margin-right: 25px;
+    }
 
 }
