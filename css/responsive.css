@@ -1,4 +1,5 @@
-/* Responsive Tablet */
+/************* RESPONSIVE TABLET *************/
+
 @media screen and (min-width: 768px) {
 
     /* Utilities */
@@ -15,7 +16,7 @@
     /************* RECIPE *************/
     /* Recipe header */
     .recipe-title {
-        font-size: 30px;
+        font-size: 23px;
     }
 
     .recipe-name {
@@ -27,12 +28,11 @@
         display: flex;
     }
 
-    /* Quick Notes - DA RIFARE */
+    /* Quick Notes */
     .quick-notes ul {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px 30px;
-        margin: 15px;
     }
 
     /*  SOCIAL NETWORKS */
@@ -43,7 +43,6 @@
         align-items: center;
         justify-content: center;
         gap: 10px;
-        /* Spazio tra icona e testo */
     }
 
     /* ADS */
@@ -65,3 +64,7 @@
     }
 
 }
+
+/************* RESPONSIVE DEKSTOP *************/
+
+@media screen and (min-width: 992px) {}
