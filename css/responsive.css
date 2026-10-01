@@ -67,4 +67,35 @@
 
 /************* RESPONSIVE DEKSTOP *************/
 
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+
+    /************* RECIPE *************/
+    /* Recipe header */
+    .recipe-title {
+        font-size: 30px;
+    }
+
+    /* Quick Notes */
+    .quick-notes {
+        flex-wrap: wrap;
+    }
+
+    /* Recipe Card */
+    .recipe-card {
+        display: flex;
+    }
+
+    /*  SOCIAL NETWORKS */
+    .social-networks .label {
+        display: inline-block;
+    }
+
+    /* FOOTER */
+    footer {
+        display: flex;
+        text-align: justify;
+        justify-content: space-between;
+        align-items: end;
+    }
+
+}
