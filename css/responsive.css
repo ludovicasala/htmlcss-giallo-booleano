@@ -1,2 +1,35 @@
 /* Responsive Tablet */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+
+    /* Utilities */
+    .container {
+        padding: 40px;
+    }
+
+    /*  HEADER  */
+
+    #topbar {
+        display: flex;
+        justify-content: start;
+    }
+
+    /************* RECIPE *************/
+
+    /* Recipe header */
+
+    .recipe-title {
+        font-size: 30px;
+    }
+
+    .recipe-name {
+        display: flex;
+        gap: 5px;
+    }
+
+    .recipe-origin {
+        display: flex;
+    }
+
+
+
+}
