@@ -1,6 +1,25 @@
 /************* RESPONSIVE LARGE MOBILE *************/
 
-@media screen and (min-width: 576px) {}
+@media screen and (min-width: 576px) {
+
+    /*  SOCIAL NETWORKS */
+    .social-networks button {
+        width: 100%;
+        padding: 12px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    /* PRESENTATION */
+    .presentation img {
+        float: left;
+        width: 600px;
+        margin-right: 25px;
+    }
+
+}
 
 /************* RESPONSIVE TABLET *************/
 
