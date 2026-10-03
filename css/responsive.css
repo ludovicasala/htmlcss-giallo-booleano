@@ -1,3 +1,14 @@
+/* Fix bug iframe 16:9 youtube */
+.recipe-video {
+    /* togliamo 50vw altrimenti l'ALTEZZA del contenitore cambia insieme alla LARGHEZZA della viewport */
+    height: auto;
+}
+
+.recipe-video iframe {
+    /* questo contenitore ha sempre la stessa forma, indipendentemente dalle dimensioni */
+    aspect-ratio: 16/9;
+}
+
 /************* RESPONSIVE LARGE MOBILE *************/
 
 @media screen and (min-width: 576px) {
@@ -109,7 +120,12 @@
     }
 
     .recipe-video {
-        width: 100%;
+        flex-basis: 70%;
+        max-height: 420px;
+    }
+
+    .recipe-info {
+        flex-basis: 30%;
     }
 
     /*  SOCIAL NETWORKS */
